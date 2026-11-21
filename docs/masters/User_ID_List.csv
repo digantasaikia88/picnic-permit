@@ -1,0 +1,377 @@
+User ID,Role,Office Name,District ID,District Name
+dto.bajali,DTO,"District Transport Office, Bajali",1037,Bajali
+dto.baksa,DTO,"District Transport Office, Baksa",1026,Baksa
+dto.barpeta,DTO,"District Transport Office, Barpeta",1002,Barpeta
+dto.biswanath,DTO,"District Transport Office, Biswanath",1029,Biswanath
+dto.bongaigaon,DTO,"District Transport Office, Bongaigaon",1003,Bongaigaon
+dto.cachar,DTO,"District Transport Office, Cachar",1004,Cachar
+dto.charaideo,DTO,"District Transport Office, Charaideo",1030,Charaideo
+dto.chirang,DTO,"District Transport Office, Chirang",1023,Chirang
+dto.darrang,DTO,"District Transport Office, Darrang",1005,Darrang
+dto.dhemaji,DTO,"District Transport Office, Dhemaji",1006,Dhemaji
+dto.dhubri,DTO,"District Transport Office, Dhubri",1007,Dhubri
+dto.dibrugarh,DTO,"District Transport Office, Dibrugarh",1008,Dibrugarh
+dto.dimahasao,DTO,"District Transport Office, Dima Hasao",1027,Dima Hasao
+dto.goalpara,DTO,"District Transport Office, Goalpara",1009,Goalpara
+dto.golaghat,DTO,"District Transport Office, Golaghat",1010,Golaghat
+dto.hailakandi,DTO,"District Transport Office, Hailakandi",1011,Hailakandi
+dto.hojai,DTO,"District Transport Office, Hojai",1032,Hojai
+dto.jorhat,DTO,"District Transport Office, Jorhat",1012,Jorhat
+dto.kamrup,DTO,"District Transport Office, Kamrup",1014,Kamrup
+dto.kamrupm,DTO,"District Transport Office, Kamrup Metropolitan",1013,Kamrup Metropolitan
+dto.karbi,DTO,"District Transport Office, Karbi Anglong",1028,Karbi Anglong
+dto.kokrajhar,DTO,"District Transport Office, Kokrajhar",1024,Kokrajhar
+dto.lakhimpur,DTO,"District Transport Office, Lakhimpur",1016,Lakhimpur
+dto.majuli,DTO,"District Transport Office, Majuli",1036,Majuli
+dto.morigaon,DTO,"District Transport Office, Morigaon",1017,Morigaon
+dto.nagaon,DTO,"District Transport Office, Nagaon",1018,Nagaon
+dto.nalbari,DTO,"District Transport Office, Nalbari",1019,Nalbari
+dto.sivasagar,DTO,"District Transport Office, Sivasagar",1020,Sivasagar
+dto.sonitpur,DTO,"District Transport Office, Sonitpur",1021,Sonitpur
+dto.salmara,DTO,"District Transport Office, South Salmara Mankachar",1033,South Salmara Mankachar
+dto.sribhumi,DTO,"District Transport Office, Sribhumi",1015,Sribhumi
+dto.tamulpur,DTO,"District Transport Office, Tamulpur",1038,Tamulpur
+dto.tinsukia,DTO,"District Transport Office, Tinsukia",1022,Tinsukia
+dto.udalguri,DTO,"District Transport Office, Udalguri",1025,Udalguri
+dto.westkarbi,DTO,"District Transport Office, West Karbi Anglong",1035,West Karbi Anglong
+dc.bajali,DC Office,"DC Office, Bajali",1037,Bajali
+dc.baksa,DC Office,"DC Office, Baksa",1026,Baksa
+dc.barpeta,DC Office,"DC Office, Barpeta",1002,Barpeta
+dc.biswanath,DC Office,"DC Office, Biswanath",1029,Biswanath
+dc.bongaigaon,DC Office,"DC Office, Bongaigaon",1003,Bongaigaon
+dc.cachar,DC Office,"DC Office, Cachar",1004,Cachar
+dc.charaideo,DC Office,"DC Office, Charaideo",1030,Charaideo
+dc.chirang,DC Office,"DC Office, Chirang",1023,Chirang
+dc.darrang,DC Office,"DC Office, Darrang",1005,Darrang
+dc.dhemaji,DC Office,"DC Office, Dhemaji",1006,Dhemaji
+dc.dhubri,DC Office,"DC Office, Dhubri",1007,Dhubri
+dc.dibrugarh,DC Office,"DC Office, Dibrugarh",1008,Dibrugarh
+dc.dimahasao,DC Office,"DC Office, Dima Hasao",1027,Dima Hasao
+dc.goalpara,DC Office,"DC Office, Goalpara",1009,Goalpara
+dc.golaghat,DC Office,"DC Office, Golaghat",1010,Golaghat
+dc.hailakandi,DC Office,"DC Office, Hailakandi",1011,Hailakandi
+dc.hojai,DC Office,"DC Office, Hojai",1032,Hojai
+dc.jorhat,DC Office,"DC Office, Jorhat",1012,Jorhat
+dc.kamrup,DC Office,"DC Office, Kamrup",1014,Kamrup
+dc.kamrupm,DC Office,"DC Office, Kamrup Metropolitan",1013,Kamrup Metropolitan
+dc.karbi,DC Office,"DC Office, Karbi Anglong",1028,Karbi Anglong
+dc.kokrajhar,DC Office,"DC Office, Kokrajhar",1024,Kokrajhar
+dc.lakhimpur,DC Office,"DC Office, Lakhimpur",1016,Lakhimpur
+dc.majuli,DC Office,"DC Office, Majuli",1036,Majuli
+dc.morigaon,DC Office,"DC Office, Morigaon",1017,Morigaon
+dc.nagaon,DC Office,"DC Office, Nagaon",1018,Nagaon
+dc.nalbari,DC Office,"DC Office, Nalbari",1019,Nalbari
+dc.sivasagar,DC Office,"DC Office, Sivasagar",1020,Sivasagar
+dc.sonitpur,DC Office,"DC Office, Sonitpur",1021,Sonitpur
+dc.salmara,DC Office,"DC Office, South Salmara Mankachar",1033,South Salmara Mankachar
+dc.sribhumi,DC Office,"DC Office, Sribhumi",1015,Sribhumi
+dc.tamulpur,DC Office,"DC Office, Tamulpur",1038,Tamulpur
+dc.tinsukia,DC Office,"DC Office, Tinsukia",1022,Tinsukia
+dc.udalguri,DC Office,"DC Office, Udalguri",1025,Udalguri
+dc.westkarbi,DC Office,"DC Office, West Karbi Anglong",1035,West Karbi Anglong
+ps.patacharkuchi,Police Station,Patacharkuchi PS,1037,Bajali
+ps.pathsala,Police Station,Pathsala PS,1037,Bajali
+ps.barama,Police Station,Barama PS,1026,Baksa
+ps.barbari,Police Station,Barbari PS,1026,Baksa
+ps.gobardhana,Police Station,Gobardhana PS,1026,Baksa
+ps.mushalpur,Police Station,Mushalpur PS,1026,Baksa
+ps.salbari,Police Station,Salbari PS,1026,Baksa
+ps.simla,Police Station,Simla PS,1026,Baksa
+ps.alupatichar,Police Station,Alupatichar PS,1002,Barpeta
+ps.baghbar,Police Station,Baghbar PS,1002,Barpeta
+ps.barpeta,Police Station,Barpeta PS,1002,Barpeta
+ps.barpetaroad,Police Station,Barpeta Road PS,1002,Barpeta
+ps.howly,Police Station,Howly PS,1002,Barpeta
+ps.kalgachia,Police Station,Kalgachia PS,1002,Barpeta
+ps.kasumara,Police Station,Kasumara PS,1002,Barpeta
+ps.sarthebari,Police Station,Sarthebari PS,1002,Barpeta
+ps.sorbhog,Police Station,Sorbhog PS,1002,Barpeta
+ps.tarabari,Police Station,Tarabari PS,1002,Barpeta
+ps.behali,Police Station,Behali PS,1029,Biswanath
+ps.biswanathchariali,Police Station,Biswanath Chariali PS,1029,Biswanath
+ps.gingia,Police Station,Gingia PS,1029,Biswanath
+ps.gohpur,Police Station,Gohpur PS,1029,Biswanath
+ps.helem,Police Station,Helem PS,1029,Biswanath
+ps.sootea,Police Station,Sootea PS,1029,Biswanath
+ps.abhayapuri,Police Station,Abhayapuri PS,1003,Bongaigaon
+ps.bongaigaon,Police Station,Bongaigaon PS,1003,Bongaigaon
+ps.jogighopa,Police Station,Jogighopa PS,1003,Bongaigaon
+ps.manikpur,Police Station,Manikpur PS,1003,Bongaigaon
+ps.mererchara,Police Station,Mererchara PS,1003,Bongaigaon
+ps.borkhola,Police Station,Borkhola PS,1004,Cachar
+ps.dholai,Police Station,Dholai PS,1004,Cachar
+ps.dwarbond,Police Station,Dwarbond PS,1004,Cachar
+ps.jirighat,Police Station,Jirighat PS,1004,Cachar
+ps.kachudaram,Police Station,Kachudaram PS,1004,Cachar
+ps.kalain,Police Station,Kalain PS,1004,Cachar
+ps.katigorah,Police Station,Katigorah PS,1004,Cachar
+ps.silchar,Police Station,Silchar PS,1004,Cachar
+ps.sonai,Police Station,Sonai PS,1004,Cachar
+ps.udharbond,Police Station,Udharbond PS,1004,Cachar
+ps.borhat,Police Station,Borhat PS,1030,Charaideo
+ps.charaipung,Police Station,Charaipung PS,1030,Charaideo
+ps.kakotibari,Police Station,Kakotibari PS,1030,Charaideo
+ps.mathurapur,Police Station,Mathurapur PS,1030,Charaideo
+ps.moranhat,Police Station,Moranhat PS,1030,Charaideo
+ps.namtola,Police Station,Namtola PS,1030,Charaideo
+ps.sepekhati,Police Station,Sepekhati PS,1030,Charaideo
+ps.sonari,Police Station,Sonari PS,1030,Charaideo
+ps.basugaon,Police Station,Basugaon PS,1023,Chirang
+ps.bijni,Police Station,Bijni PS,1023,Chirang
+ps.dhaligaon,Police Station,Dhaligaon PS,1023,Chirang
+ps.kajalgaon,Police Station,Kajalgaon PS,1023,Chirang
+ps.panbari,Police Station,Panbari PS,1023,Chirang
+ps.runikhata,Police Station,Runikhata PS,1023,Chirang
+ps.sidli,Police Station,Sidli PS,1023,Chirang
+ps.dalgaon,Police Station,Dalgaon PS,1005,Darrang
+ps.dhula,Police Station,Dhula PS,1005,Darrang
+ps.kharupetia,Police Station,Kharupetia PS,1005,Darrang
+ps.mangaldai,Police Station,Mangaldai PS,1005,Darrang
+ps.shyampur,Police Station,Shyampur PS,1005,Darrang
+ps.sipajhar,Police Station,Sipajhar PS,1005,Darrang
+ps.chengajanghat,Police Station,Chengajanghat PS,1006,Dhemaji
+ps.dhemaji,Police Station,Dhemaji PS,1006,Dhemaji
+ps.gerukamukh,Police Station,Gerukamukh PS,1006,Dhemaji
+ps.gogamukh,Police Station,Gogamukh PS,1006,Dhemaji
+ps.jonai,Police Station,Jonai PS,1006,Dhemaji
+ps.silapathar,Police Station,Silapathar PS,1006,Dhemaji
+ps.simenchapori,Police Station,Simenchapori PS,1006,Dhemaji
+ps.agomoni,Police Station,Agomoni PS,1007,Dhubri
+ps.bilasipara,Police Station,Bilasipara PS,1007,Dhubri
+ps.chapar,Police Station,Chapar PS,1007,Dhubri
+ps.dhubri,Police Station,Dhubri PS,1007,Dhubri
+ps.gauripur,Police Station,Gauripur PS,1007,Dhubri
+ps.golakganj,Police Station,Golakganj PS,1007,Dhubri
+ps.sapatgram,Police Station,Sapatgram PS,1007,Dhubri
+ps.tamarhat,Police Station,Tamarhat PS,1007,Dhubri
+ps.barbaruah,Police Station,Barbaruah PS,1008,Dibrugarh
+ps.chabua,Police Station,Chabua PS,1008,Dibrugarh
+ps.dibrugarh,Police Station,Dibrugarh PS,1008,Dibrugarh
+ps.duliajan,Police Station,Duliajan PS,1008,Dibrugarh
+ps.joypur,Police Station,Joypur PS,1008,Dibrugarh
+ps.khowang,Police Station,Khowang PS,1008,Dibrugarh
+ps.lahowal,Police Station,Lahowal PS,1008,Dibrugarh
+ps.moran,Police Station,Moran PS,1008,Dibrugarh
+ps.naharkatia,Police Station,Naharkatia PS,1008,Dibrugarh
+ps.namrup,Police Station,Namrup PS,1008,Dibrugarh
+ps.rahmaria,Police Station,Rahmaria PS,1008,Dibrugarh
+ps.tengakhat,Police Station,Tengakhat PS,1008,Dibrugarh
+ps.tingkhong,Police Station,Tingkhong PS,1008,Dibrugarh
+ps.dihangi,Police Station,Dihangi PS,1027,Dima Hasao
+ps.diyungmukh,Police Station,Diyungmukh PS,1027,Dima Hasao
+ps.haflong,Police Station,Haflong PS,1027,Dima Hasao
+ps.harangajao,Police Station,Harangajao PS,1027,Dima Hasao
+ps.langting,Police Station,Langting PS,1027,Dima Hasao
+ps.mahur,Police Station,Mahur PS,1027,Dima Hasao
+ps.maibang,Police Station,Maibang PS,1027,Dima Hasao
+ps.umrangso,Police Station,Umrangso PS,1027,Dima Hasao
+ps.agia,Police Station,Agia PS,1009,Goalpara
+ps.baguan,Police Station,Baguan PS,1009,Goalpara
+ps.chunari,Police Station,Chunari PS,1009,Goalpara
+ps.dhupdhara,Police Station,Dhupdhara PS,1009,Goalpara
+ps.dudhnoi,Police Station,Dudhnoi PS,1009,Goalpara
+ps.goalpara,Police Station,Goalpara PS,1009,Goalpara
+ps.goalparasadar,Police Station,Goalpara Sadar PS,1009,Goalpara
+ps.krishnai,Police Station,Krishnai PS,1009,Goalpara
+ps.lakhipur,Police Station,Lakhipur PS,1009,Goalpara
+ps.matia,Police Station,Matia PS,1009,Goalpara
+ps.mornoi,Police Station,Mornoi PS,1009,Goalpara
+ps.rangjuli,Police Station,Rangjuli PS,1009,Goalpara
+ps.barpathar,Police Station,Barpathar PS,1010,Golaghat
+ps.bogijan,Police Station,Bogijan PS,1010,Golaghat
+ps.bokakhat,Police Station,Bokakhat PS,1010,Golaghat
+ps.chungajan,Police Station,Chungajan PS,1010,Golaghat
+ps.dergaon,Police Station,Dergaon PS,1010,Golaghat
+ps.ghiladhari,Police Station,Ghiladhari PS,1010,Golaghat
+ps.golaghat,Police Station,Golaghat PS,1010,Golaghat
+ps.kamargaon,Police Station,Kamargaon PS,1010,Golaghat
+ps.merapani,Police Station,Merapani PS,1010,Golaghat
+ps.numaligarhrural,Police Station,Numaligarh Rural PS,1010,Golaghat
+ps.sarupathar,Police Station,Sarupathar PS,1010,Golaghat
+ps.uriamghat,Police Station,Uriamghat PS,1010,Golaghat
+ps.algapur,Police Station,Algapur PS,1011,Hailakandi
+ps.hailakandi,Police Station,Hailakandi PS,1011,Hailakandi
+ps.katlicherra,Police Station,Katlicherra PS,1011,Hailakandi
+ps.lala,Police Station,Lala PS,1011,Hailakandi
+ps.panchgram,Police Station,Panchgram PS,1011,Hailakandi
+ps.ramnathpur,Police Station,Ramnathpur PS,1011,Hailakandi
+ps.daboka,Police Station,Daboka PS,1032,Hojai
+ps.hojai,Police Station,Hojai PS,1032,Hojai
+ps.jamunamukh,Police Station,Jamunamukh PS,1032,Hojai
+ps.kaki,Police Station,Kaki PS,1032,Hojai
+ps.lanka,Police Station,Lanka PS,1032,Hojai
+ps.lumding,Police Station,Lumding PS,1032,Hojai
+ps.murajhar,Police Station,Murajhar PS,1032,Hojai
+ps.bhogamukh,Police Station,Bhogamukh PS,1012,Jorhat
+ps.borhulla,Police Station,Borhulla PS,1012,Jorhat
+ps.jorhat,Police Station,Jorhat PS,1012,Jorhat
+ps.mariani,Police Station,Mariani PS,1012,Jorhat
+ps.pulibor,Police Station,Pulibor PS,1012,Jorhat
+ps.teok,Police Station,Teok PS,1012,Jorhat
+ps.titabar,Police Station,Titabar PS,1012,Jorhat
+ps.baihatachariali,Police Station,Baihata Chariali PS,1014,Kamrup
+ps.bhatkhowadia,Police Station,Bhatkhowadia PS,1014,Kamrup
+ps.boko,Police Station,Boko PS,1014,Kamrup
+ps.changsari,Police Station,Changsari PS,1014,Kamrup
+ps.chaygaon,Police Station,Chaygaon PS,1014,Kamrup
+ps.hajo,Police Station,Hajo PS,1014,Kamrup
+ps.kamalpur,Police Station,Kamalpur PS,1014,Kamrup
+ps.kayan,Police Station,Kayan PS,1014,Kamrup
+ps.nagarbera,Police Station,Nagarbera PS,1014,Kamrup
+ps.northguwahati,Police Station,North Guwahati PS,1014,Kamrup
+ps.palashbari,Police Station,Palashbari PS,1014,Kamrup
+ps.rangia,Police Station,Rangia PS,1014,Kamrup
+ps.sualkuchi,Police Station,Sualkuchi PS,1014,Kamrup
+ps.allwomen,Police Station,All Women PS,1013,Kamrup Metropolitan
+ps.azara,Police Station,Azara PS,1013,Kamrup Metropolitan
+ps.basistha,Police Station,Basistha PS,1013,Kamrup Metropolitan
+ps.bhangagarh,Police Station,Bhangagarh PS,1013,Kamrup Metropolitan
+ps.bharalumukh,Police Station,Bharalumukh PS,1013,Kamrup Metropolitan
+ps.chandmari,Police Station,Chandmari PS,1013,Kamrup Metropolitan
+ps.crimebranch,Police Station,Crime Branch PS,1013,Kamrup Metropolitan
+ps.dispur,Police Station,Dispur PS,1013,Kamrup Metropolitan
+ps.fatasilambari,Police Station,Fatasil Ambari PS,1013,Kamrup Metropolitan
+ps.geetanagar,Police Station,Geetanagar PS,1013,Kamrup Metropolitan
+ps.gorchuk,Police Station,Gorchuk PS,1013,Kamrup Metropolitan
+ps.hatigaon,Police Station,Hatigaon PS,1013,Kamrup Metropolitan
+ps.jalukbari,Police Station,Jalukbari PS,1013,Kamrup Metropolitan
+ps.khetri,Police Station,Khetri PS,1013,Kamrup Metropolitan
+ps.latasil,Police Station,Latasil PS,1013,Kamrup Metropolitan
+ps.noonmati,Police Station,Noonmati PS,1013,Kamrup Metropolitan
+ps.paltanbazar,Police Station,Paltanbazar PS,1013,Kamrup Metropolitan
+ps.panbazar,Police Station,Panbazar PS,1013,Kamrup Metropolitan
+ps.pragjyotishpur,Police Station,Pragjyotishpur PS,1013,Kamrup Metropolitan
+ps.satgaon,Police Station,Satgaon PS,1013,Kamrup Metropolitan
+ps.sonapur,Police Station,Sonapur PS,1013,Kamrup Metropolitan
+ps.anjokpani,Police Station,Anjokpani PS,1028,Karbi Anglong
+ps.bakolia,Police Station,Bakolia PS,1028,Karbi Anglong
+ps.bokajan,Police Station,Bokajan PS,1028,Karbi Anglong
+ps.borlanfer,Police Station,Borlanfer PS,1028,Karbi Anglong
+ps.borpathar,Police Station,Borpathar PS,1028,Karbi Anglong
+ps.chowkihola,Police Station,Chowkihola PS,1028,Karbi Anglong
+ps.deithor,Police Station,Deithor PS,1028,Karbi Anglong
+ps.dillai,Police Station,Dillai PS,1028,Karbi Anglong
+ps.diphu,Police Station,Diphu PS,1028,Karbi Anglong
+ps.dokmoka,Police Station,Dokmoka PS,1028,Karbi Anglong
+ps.dolamara,Police Station,Dolamara PS,1028,Karbi Anglong
+ps.howraghat,Police Station,Howraghat PS,1028,Karbi Anglong
+ps.khatkhati,Police Station,Khatkhati PS,1028,Karbi Anglong
+ps.manja,Police Station,Manja PS,1028,Karbi Anglong
+ps.rongmongwe,Police Station,Rongmongwe PS,1028,Karbi Anglong
+ps.samelangso,Police Station,Sam elangso PS,1028,Karbi Anglong
+ps.bagribari,Police Station,Bagribari PS,1024,Kokrajhar
+ps.dotma,Police Station,Dotma PS,1024,Kokrajhar
+ps.fakiragram,Police Station,Fakiragram PS,1024,Kokrajhar
+ps.gossaigaon,Police Station,Gossaigaon PS,1024,Kokrajhar
+ps.kachugaon,Police Station,Kachugaon PS,1024,Kokrajhar
+ps.kazigaon,Police Station,Kazigaon PS,1024,Kokrajhar
+ps.kokrajhar,Police Station,Kokrajhar PS,1024,Kokrajhar
+ps.serfanguri,Police Station,Serfanguri PS,1024,Kokrajhar
+ps.baginadi,Police Station,Baginadi PS,1016,Lakhimpur
+ps.bihpuria,Police Station,Bihpuria PS,1016,Lakhimpur
+ps.bodatighatrivering,Police Station,Bodatighat Rivering PS,1016,Lakhimpur
+ps.dhakuakhana,Police Station,Dhakuakhana PS,1016,Lakhimpur
+ps.ghilamara,Police Station,Ghilamara PS,1016,Lakhimpur
+ps.laluk,Police Station,Laluk PS,1016,Lakhimpur
+ps.narayanpur,Police Station,Narayanpur PS,1016,Lakhimpur
+ps.northlakhimpur,Police Station,North Lakhimpur PS,1016,Lakhimpur
+ps.panigaon,Police Station,Panigaon PS,1016,Lakhimpur
+ps.dakhinmajuli,Police Station,Dakhin Majuli PS,1036,Majuli
+ps.garamur,Police Station,Garamur PS,1036,Majuli
+ps.jengraimukh,Police Station,Jengraimukh PS,1036,Majuli
+ps.majuli,Police Station,Majuli PS,1036,Majuli
+ps.bhelowguri,Police Station,Bhelowguri PS,1017,Morigaon
+ps.bhuragaon,Police Station,Bhuragaon PS,1017,Morigaon
+ps.dharamtul,Police Station,Dharamtul PS,1017,Morigaon
+ps.jagiroad,Police Station,Jagiroad PS,1017,Morigaon
+ps.laharighat,Police Station,Laharighat PS,1017,Morigaon
+ps.mayong,Police Station,Mayong PS,1017,Morigaon
+ps.mikirbheta,Police Station,Mikirbheta PS,1017,Morigaon
+ps.moirabari,Police Station,Moirabari PS,1017,Morigaon
+ps.morigaon,Police Station,Morigaon PS,1017,Morigaon
+ps.bordowa,Police Station,Bordowa PS,1018,Nagaon
+ps.dhing,Police Station,Dhing PS,1018,Nagaon
+ps.jajari,Police Station,Jajari PS,1018,Nagaon
+ps.jakhalabondha,Police Station,Jakhalabondha PS,1018,Nagaon
+ps.juria,Police Station,Juria PS,1018,Nagaon
+ps.kachua,Police Station,Kachua PS,1018,Nagaon
+ps.kaliabor,Police Station,Kaliabor PS,1018,Nagaon
+ps.kampur,Police Station,Kampur PS,1018,Nagaon
+ps.khatowal,Police Station,Khatowal PS,1018,Nagaon
+ps.laokhowachapori,Police Station,Laokhowa Chapori PS,1018,Nagaon
+ps.nagaon,Police Station,Nagaon PS,1018,Nagaon
+ps.raha,Police Station,Raha PS,1018,Nagaon
+ps.ruaphihat,Police Station,Ruaphihat PS,1018,Nagaon
+ps.samaguri,Police Station,Samaguri PS,1018,Nagaon
+ps.uluani,Police Station,Uluani PS,1018,Nagaon
+ps.belsor,Police Station,Belsor PS,1019,Nalbari
+ps.bhangnamari,Police Station,Bhangnamari PS,1019,Nalbari
+ps.ghograpar,Police Station,Ghograpar PS,1019,Nalbari
+ps.mukalmua,Police Station,Mukalmua PS,1019,Nalbari
+ps.nalbari,Police Station,Nalbari PS,1019,Nalbari
+ps.sialmari,Police Station,Sialmari PS,1019,Nalbari
+ps.tihu,Police Station,Tihu PS,1019,Nalbari
+ps.amguri,Police Station,Amguri PS,1020,Sivasagar
+ps.bakatanemuguri,Police Station,Bakata Nemuguri PS,1020,Sivasagar
+ps.bihubor,Police Station,Bihubor PS,1020,Sivasagar
+ps.demow,Police Station,Demow PS,1020,Sivasagar
+ps.gaurisagar,Police Station,Gaurisagar PS,1020,Sivasagar
+ps.geleky,Police Station,Geleky PS,1020,Sivasagar
+ps.halwating,Police Station,Halwating PS,1020,Sivasagar
+ps.lakwa,Police Station,Lakwa PS,1020,Sivasagar
+ps.namti,Police Station,Namti PS,1020,Sivasagar
+ps.nazira,Police Station,Nazira PS,1020,Sivasagar
+ps.simaluguri,Police Station,Simaluguri PS,1020,Sivasagar
+ps.sivasagar,Police Station,Sivasagar PS,1020,Sivasagar
+ps.chariduar,Police Station,Chariduar PS,1021,Sonitpur
+ps.dhekiajuli,Police Station,Dhekiajuli PS,1021,Sonitpur
+ps.jamuguri,Police Station,Jamuguri PS,1021,Sonitpur
+ps.missamari,Police Station,Missamari PS,1021,Sonitpur
+ps.rangapara,Police Station,Rangapara PS,1021,Sonitpur
+ps.tezpur,Police Station,Tezpur PS,1021,Sonitpur
+ps.thelamara,Police Station,Thelamara PS,1021,Sonitpur
+ps.fakirganj,Police Station,Fakirganj PS,1033,South Salmara Mankachar
+ps.mankachar,Police Station,Mankachar PS,1033,South Salmara Mankachar
+ps.southsalmara,Police Station,South Salmara PS,1033,South Salmara Mankachar
+ps.sukchar,Police Station,Sukchar PS,1033,South Salmara Mankachar
+ps.badarpur,Police Station,Badarpur PS,1015,Sribhumi
+ps.bazaricherra,Police Station,Bazaricherra PS,1015,Sribhumi
+ps.karimganj,Police Station,Karimganj PS,1015,Sribhumi
+ps.nilambazar,Police Station,Nilam Bazar PS,1015,Sribhumi
+ps.patharkandi,Police Station,Patharkandi PS,1015,Sribhumi
+ps.rknagar,Police Station,R.K. Nagar PS,1015,Sribhumi
+ps.ratabari,Police Station,Ratabari PS,1015,Sribhumi
+ps.goreswar,Police Station,Goreswar PS,1038,Tamulpur
+ps.tamulpur,Police Station,Tamulpur PS,1038,Tamulpur
+ps.baghijan,Police Station,Baghijan PS,1022,Tinsukia
+ps.barekuri,Police Station,Barekuri PS,1022,Tinsukia
+ps.bordubi,Police Station,Bordubi PS,1022,Tinsukia
+ps.bordumsa,Police Station,Bordumsa PS,1022,Tinsukia
+ps.chengchupchariali,Police Station,Cheng Chup Chariali PS,1022,Tinsukia
+ps.dholla,Police Station,Dholla PS,1022,Tinsukia
+ps.digboi,Police Station,Digboi PS,1022,Tinsukia
+ps.doomdooma,Police Station,Doomdooma PS,1022,Tinsukia
+ps.kakopathar,Police Station,Kakopathar PS,1022,Tinsukia
+ps.lekhapani,Police Station,Lekhapani PS,1022,Tinsukia
+ps.makum,Police Station,Makum PS,1022,Tinsukia
+ps.margherita,Police Station,Margherita PS,1022,Tinsukia
+ps.pengeree,Police Station,Pengeree PS,1022,Tinsukia
+ps.phillobari,Police Station,Phillobari PS,1022,Tinsukia
+ps.sadiya,Police Station,Sadiya PS,1022,Tinsukia
+ps.saikhowaghat,Police Station,Saikhowa Ghat PS,1022,Tinsukia
+ps.tinsukia,Police Station,Tinsukia PS,1022,Tinsukia
+ps.tongonga,Police Station,Tongonga PS,1022,Tinsukia
+ps.dimakuchi,Police Station,Dimakuchi PS,1025,Udalguri
+ps.harisinga,Police Station,Harisinga PS,1025,Udalguri
+ps.kalaigaon,Police Station,Kalaigaon PS,1025,Udalguri
+ps.khairabari,Police Station,Khairabari PS,1025,Udalguri
+ps.mazbat,Police Station,Mazbat PS,1025,Udalguri
+ps.orang,Police Station,Orang PS,1025,Udalguri
+ps.panery,Police Station,Panery PS,1025,Udalguri
+ps.rowta,Police Station,Rowta PS,1025,Udalguri
+ps.tangla,Police Station,Tangla PS,1025,Udalguri
+ps.udalguri,Police Station,Udalguri PS,1025,Udalguri
+ps.baithalangso,Police Station,Baithalangso PS,1035,West Karbi Anglong
+ps.hamren,Police Station,Hamren PS,1035,West Karbi Anglong
+ps.kheroni,Police Station,Kheroni PS,1035,West Karbi Anglong
+ps.zirikingding,Police Station,Zirikingding PS,1035,West Karbi Anglong
