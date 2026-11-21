@@ -1,0 +1,104 @@
+# Development: docker compose up --build
+# Source folders are mounted into the containers, so edits show without a rebuild.
+# Runs with built-in development defaults; copy .env.example to .env to change them.
+
+name: picnic-permit
+
+services:
+  db:
+    image: postgres:18.7-trixie
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-picnic_permit}
+      POSTGRES_USER: ${POSTGRES_USER:-picnic}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-picnic_dev_password}
+      TZ: UTC
+    volumes:
+      # PostgreSQL 18 images keep data under /var/lib/postgresql/<major>/docker.
+      - db_data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready --username $$POSTGRES_USER --dbname $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 10s
+
+  backend:
+    build:
+      context: ./backend
+      target: dev
+    restart: unless-stopped
+    environment:
+      ENVIRONMENT: development
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: ${POSTGRES_DB:-picnic_permit}
+      POSTGRES_USER: ${POSTGRES_USER:-picnic}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-picnic_dev_password}
+      APP_TIMEZONE: ${APP_TIMEZONE:-Asia/Kolkata}
+      UPLOAD_DIR: /data/uploads
+      MASTERS_DIR: /masters
+      # Address of the site as the public reaches it. Used in links sent by SMS.
+      PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:-http://localhost:3000}
+      # Set to false only for automated or load tests. Refused in production.
+      CAPTCHA_ENABLED: ${CAPTCHA_ENABLED:-true}
+      SESSION_COOKIE_SECURE: "false"
+      # File change events do not cross a Windows bind mount, so poll for changes.
+      WATCHFILES_FORCE_POLLING: "true"
+    volumes:
+      - ./backend:/app
+      - uploads:/data/uploads
+      # Master CSV files, read by: python -m app.seeds.load_masters
+      - ./docs/masters:/masters:ro
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=3)"
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+
+  frontend:
+    build:
+      context: ./frontend
+      target: dev
+    restart: unless-stopped
+    environment:
+      # Next.js forwards the browser's /api/... calls here.
+      BACKEND_INTERNAL_URL: http://backend:8000
+      # File change events do not cross a Windows bind mount, so poll for changes.
+      NEXT_WATCH_POLL_MS: "1000"
+    volumes:
+      - ./frontend:/app
+      # Kept inside Docker: Linux-built packages must not land on the Windows disk.
+      - frontend_node_modules:/app/node_modules
+      - frontend_next:/app/.next
+    ports:
+      - "${FRONTEND_PORT:-3000}:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test:
+        - CMD
+        - node
+        - -e
+        - "fetch('http://127.0.0.1:3000/healthz').then(r => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))"
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 40s
+
+volumes:
+  db_data:
+  uploads:
+  frontend_node_modules:
+  frontend_next:
